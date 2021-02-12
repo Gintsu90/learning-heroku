@@ -1,12 +1,15 @@
 const Notifaction = ({message}) => {
-    if(message === null) {
-        return null
-    }
+    
 
     return (
-        <div className="error">
-            {message}
-        </div>
+        <>
+            { message ?
+                <div className="error">
+                    
+                </div>
+            : ""
+            }
+        </>
     )
 }
 

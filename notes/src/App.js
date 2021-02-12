@@ -9,7 +9,7 @@ function App(props) {
   const [notes, setNotes] = useState([]);
   const [newNote, setNewNote] = useState("a new note...");
   const [showAll, setShowAll] = useState(true);
-  const [errorMessage, setErrorMessage] = useState("Some error happened...");
+  const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
     console.log("effect");

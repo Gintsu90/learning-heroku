@@ -7,7 +7,7 @@ const Footer = () => {
     }
     return (
         <div style={footerStyle}>
-            <em>Note app, Department of Computer Science, University of Helsinki 2020</em>
+            <em>Note app, learning Heroku</em>
         </div>
     )
 }
