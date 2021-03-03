@@ -79,7 +79,7 @@ function App(props) {
       </div>
       <ul>
         {notesToShow.map(note => 
-          <Note key={note.id} toggleImportance={() => toggelImportanceOf(note.id)} note={note}/>
+          <Note key={note._id} toggleImportance={() => toggelImportanceOf(note.id)} note={note}/>
         )}
       </ul>
       <form onSubmit={addNote}>
